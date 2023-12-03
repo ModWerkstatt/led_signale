@@ -1,0 +1,63 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 144,
+					offset = 960,
+				},
+				position = {
+					count = 144,
+					offset = 384,
+				},
+				tangent = {
+					count = 144,
+					offset = 816,
+				},
+				uv0 = {
+					count = 144,
+					offset = 672,
+				},
+				uv1 = {
+					count = 144,
+					offset = 528,
+				},
+			},
+			materials = {
+				"vehicle/train/ks_zs6_tafel.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 72,
+			numComp = 3,
+			offset = 312,
+		},
+		position = {
+			count = 96,
+			numComp = 3,
+			offset = 0,
+		},
+		tangent = {
+			count = 96,
+			numComp = 4,
+			offset = 216,
+		},
+		uv0 = {
+			count = 112,
+			numComp = 2,
+			offset = 104,
+		},
+		uv1 = {
+			count = 8,
+			numComp = 2,
+			offset = 96,
+		},
+	},
+}
+end

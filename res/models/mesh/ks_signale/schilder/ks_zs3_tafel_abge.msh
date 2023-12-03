@@ -1,0 +1,63 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 528,
+					offset = 2152,
+				},
+				position = {
+					count = 528,
+					offset = 3208,
+				},
+				tangent = {
+					count = 528,
+					offset = 1624,
+				},
+				uv0 = {
+					count = 528,
+					offset = 2680,
+				},
+				uv1 = {
+					count = 528,
+					offset = 3736,
+				},
+			},
+			materials = {
+				"vehicle/train/ks_signal_misc_2.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 192,
+			numComp = 3,
+			offset = 752,
+		},
+		position = {
+			count = 288,
+			numComp = 3,
+			offset = 1328,
+		},
+		tangent = {
+			count = 752,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 384,
+			numComp = 2,
+			offset = 944,
+		},
+		uv1 = {
+			count = 8,
+			numComp = 2,
+			offset = 1616,
+		},
+	},
+}
+end

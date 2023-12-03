@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 3240,
+					offset = 19164,
+				},
+				position = {
+					count = 3240,
+					offset = 15924,
+				},
+				tangent = {
+					count = 3240,
+					offset = 12684,
+				},
+				uv0 = {
+					count = 3240,
+					offset = 9444,
+				},
+			},
+			materials = {
+				"kompaktsignal_auslegermast/koerbe/ks_signal_misc.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 1092,
+			numComp = 3,
+			offset = 8352,
+		},
+		position = {
+			count = 1920,
+			numComp = 3,
+			offset = 6432,
+		},
+		tangent = {
+			count = 4496,
+			numComp = 4,
+			offset = 1936,
+		},
+		uv0 = {
+			count = 1936,
+			numComp = 2,
+			offset = 0,
+		},
+	},
+}
+end
