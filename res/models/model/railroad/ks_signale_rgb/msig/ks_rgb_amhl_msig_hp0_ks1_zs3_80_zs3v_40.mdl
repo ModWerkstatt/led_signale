@@ -89,12 +89,12 @@ return {
 					{						
 						materials = { "ks_signale/misc/ks_signal_misc.mtl", },
 						mesh = "ks_signale/halter/ks_zsa_halter_oben.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.36, -2.5, 6.34, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.36, -2.5, 6.34+0.73, 1, },
 					},
 					{						
 						materials = { "ks_signale/misc/ks_signal_misc.mtl", "ks_signale/misc/ks_zsa_scheibe.mtl", },
 						mesh = "ks_signale/misc/ks_zsa.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.36, -2.5, 6.53, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.36, -2.5, 6.53+0.73, 1, },
 					},
 					-- zza unten
 					{						

@@ -80,6 +80,17 @@ return {
 						mesh = "ks_signale/masten/ks_flachmast_4_6_m.msh",						
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 2.5, 0.6, 1, },
 					},
+					-- zza oben
+					{						
+						materials = { "ks_signale/misc/ks_signal_misc.mtl", },
+						mesh = "ks_signale/halter/ks_zsa_halter_oben.msh",						
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.36, 2.5, 6.34, 1, },
+					},
+					{						
+						materials = { "ks_signale/misc/ks_signal_misc.mtl", "ks_signale/misc/ks_zsa_scheibe.mtl", },
+						mesh = "ks_signale/misc/ks_zsa.msh",						
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.36, 2.5, 6.53, 1, },
+					},
 					-- zza unten
 					{						
 						materials = { "ks_signale/misc/ks_signal_misc.mtl", },
