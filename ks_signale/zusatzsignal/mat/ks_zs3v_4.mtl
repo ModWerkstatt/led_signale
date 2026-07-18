@@ -1,0 +1,42 @@
+function data()
+return { 
+		__version = "",
+		order = 0,
+		params = { 
+			emissive_scale = { 
+				fragmentProperties = {
+					{ 
+						emissiveScale = { 100, 100, 100, },
+					},
+				},
+			},
+			light_receiver = { 
+				fragmentProperties = {
+					{ 
+						isLegacyMaterial = true,
+						lightMask = 2,
+					},
+				},
+			},
+			map_emissive = { 
+				fragmentSamplers = { 
+					emissiveTex = { 
+						fileName = "tex/ks_zs3v_4.dds",
+						type = "TWOD",
+						wrapS = "REPEAT",
+						wrapT = "REPEAT",
+					},
+				},
+			},
+			polygon_offset = { 
+				fragmentProperties = {
+					{ 
+						factor = -1,
+						units = -1,
+					},
+				},
+			},
+		},
+		type = "EMISSIVE",
+	}
+end

@@ -1,47 +1,57 @@
 function data()
-return {
-	order = 0,
-	params = {
-		albedo_scale = {
-			albedoScale = { 1, 1, 1, },
+return { 
+		__version = "",
+		order = 0,
+		params = { 
+			alpha_test = { 
+				fragmentProperties = {
+					{ 
+						cutout = false,
+						sorted = false,
+					},
+				},
+			},
+			light_receiver = { 
+				fragmentProperties = {
+					{ 
+						isLegacyMaterial = true,
+						lightMask = 2,
+					},
+				},
+			},
+			map_albedo_opacity = { 
+				fragmentSamplers = { 
+					albedoOpacityTex = { 
+						fileName = "res/textures/models/ks_signale/misc/ks_signal_misc.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_metal_gloss_ao = { 
+				fragmentSamplers = { 
+					metalGlossAoTex = { 
+						fileName = "res/textures/models/ks_signale/misc/ks_signal_misc_metal_gloss_ao.dds",
+						type = "TWOD",
+					},
+				},
+			},
+			map_normal = { 
+				fragmentSamplers = { 
+					normalTex = { 
+						fileName = "res/textures/models/ks_signale/misc/ks_signal_misc_nrml.dds",
+						redGreen = true,
+						type = "TWOD",
+					},
+				},
+			},
+			two_sided = { 
+				fragmentProperties = {
+					{ 
+						twoSided = true,
+					},
+				},
+			},
 		},
-		alpha_scale = {
-			alphaScale = 1,
-		},
-		alpha_test = {
-			alphaThreshold = 0.5,
-			cutout = false,
-		},
-		fade_out_range = {
-			fadeOutEndDist = 20000,
-			fadeOutStartDist = 10000,
-		},
-		map_albedo_opacity = {
-			fileName = "models/ks_signale/misc/ks_signal_misc.dds",
-			type = "TWOD",
-		},
-		map_metal_gloss_ao = {
-			fileName = "models/ks_signale/misc/ks_signal_misc_metal_gloss_ao.dds",
-			type = "TWOD",
-		},
-		map_normal = {
-			fileName = "models/ks_signale/misc/ks_signal_misc_nrml.dds",
-			redGreen = true,
-			type = "TWOD",
-		},
-		normal_scale = {
-			normalScale = 1,
-		},
-		polygon_offset = {
-			factor = 0,
-			forceDepthWrite = false,
-			units = 0,
-		},
-		two_sided = {
-			flipNormal = true,
-			twoSided = true,
-		},
-	},
-	type = "PHYS_TRANSPARENT_NRML_MAP",
-}
+		type = "PHYS_TRANSPARENT_NRML_MAP",
+	}
 end
